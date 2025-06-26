@@ -3,6 +3,39 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Data & logs
+*.log
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+*.pkl
+*.pt
+*.h5
+data/raw/
+data/interim/
+data/processed/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
 # C extensions
 *.so
 
